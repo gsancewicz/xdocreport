@@ -44,12 +44,15 @@ public class ODTPreprocessorFormattingVariableWithVelocity
             + "<table:table table:name=\"Compras\" table:style-name=\"Compras\">"
             + "<table:table-column table:style-name=\"Compras.A\"/>"
             + "<table:table-header-rows>";
+    
     private static final String DOCUMENT_ENDING = "</table:table-header-rows>"
             + "</table:table>"
             + "</office:document-content>";
+
     private static final String ROW_BEGINING = "<table:table-row>"
             + "<table:table-cell table:style-name=\"Compras.A1\" office:value-type=\"string\">"
             + "<text:p text:style-name=\"P3\">";
+
     private static final String ROW_ENDING = "</text:p>"
             + "</table:table-cell>"
             + "</table:table-row>";
